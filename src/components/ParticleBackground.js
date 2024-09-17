@@ -67,7 +67,7 @@ const ParticleBackground = () => {
     // 初始化粒子
     const initParticles = () => {
       particlesArray = [];
-      const numberOfParticles = (canvas.width * canvas.height) / 6000; // 增加粒子数量
+      const numberOfParticles = (canvas.width * canvas.height) / 600000; // 增加粒子数量
       for (let i = 0; i < numberOfParticles; i++) {
         const x = Math.random() * canvas.width;
         const y = Math.random() * canvas.height;
